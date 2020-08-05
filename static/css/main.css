@@ -2,7 +2,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    background: linear-gradient(180deg, rgba(255, 59, 178, 0.36) 0%, #FF3BB2 100%);
+    background: linear-gradient(180deg, rgba(59, 120, 255, 0.36) 0%, #3b54ff 100%);
 }
 .wrap {
     height: 100%;
@@ -49,7 +49,7 @@ body {
     font-family: 'Le Murmure_Regular';
     font-size: 160px;
     padding-right: 75px;
-    color: #FAFF69;
+    color: #69fffc;
 }
 .pavilion {
     /* position: absolute;
