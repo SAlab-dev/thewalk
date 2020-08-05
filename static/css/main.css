@@ -39,7 +39,7 @@ body {
     width: 100%;
 }
 .pattern-img {
-    width: 10%;
+    width: min(200px, 10%);
 }
 .pattern-t {
     position: relative;
