@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="static/fonts/font.css">
     <link rel="stylesheet" href="static/css/main.css" rel="stylesheet" type="text/css">
     <title>Geek Picnic Online - Pavilion game</title>
-
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "Build/builds.json");
+    </script>
 </head>
 <body>
     <div class="wrap">
@@ -22,7 +25,8 @@
             </div>
              <iframe class="pavilion" src="https://salab-dev.github.io/thewalk2/" width="960" height="600" scrolling="no" frameborder="no" seamless>
             </iframe>
-		<div class="pattern-f">
+		<!-- <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div> -->
+            <div class="pattern-f">
                 <img class="pattern-img" src="static/images/pattern-f.png">
             </div>
         </div>
